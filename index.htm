@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html style="overflow: hidden; height: 100%;" class="fp-enabled" xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" name="viewport">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Credai</title>
+	<meta name="author" content="Credai">
+	<meta name="description" content="fullPage looping demo.">
+	<meta name="keywords" content="fullpage,jquery,looping,loop,loopTop,loopBottom,demo">
+	<meta name="Resource-type" content="Document">
+	<link rel="stylesheet" type="text/css" href="Credai_files/style.css">
+    <link rel="stylesheet" href="Credai_files/fonts.css" type="text/css" charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Credai_files/jquery.css">
+	<link rel="stylesheet" type="text/css" href="Credai_files/examples.css">
+     <link href="Credai_files/owl_002.css" rel="stylesheet">
+    <link href="Credai_files/owl.css" rel="stylesheet">
+    <link rel="shortcut icon" href="http://exhibition.credaipune.org/templates/credai/images/favicon.ico">
+	<link rel="stylesheet" href="Credai_files/style-top.css"> <!-- Gem style -->
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="Credai_files/linkid.js" async="" type="text/javascript"></script><script src="Credai_files/analytics.js" async=""></script><script src="Credai_files/jquery_002.js"></script>
+	<script src="Credai_files/jquery-ui.js"></script>
+    <script src="Credai_files/main-top.js"></script> 
+	<script type="text/javascript" src="Credai_files/validate.js"></script>
+	<script type="text/javascript" src="Credai_files/jquery.js"></script>
+	<script type="text/javascript" src="Credai_files/examples.js"></script>
+    <script src="Credai_files/owl.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ 
+  ga('create', 'UA-68322147-1', 'auto');
+ ga('require', 'linkid', 'linkid.js');
+ ga('require', 'displayfeatures');
+ga('send', 'pageview');
+ 
+</script>
+
+
+</head>
+<body class="fp-viewing-overview" style="overflow: hidden; height: 100%;">
+
+<div class="header-wrapper">
+<div class="logo">
+	<img src="Credai_files/logot.gif" class="ri">
+</div>
+<!--<div class="logo1">
+	<img src="imgs/logo1.png">
+</div>-->
+<div class="navigation">
+    <ul id="menu">
+        <li data-menuanchor="overview" class="active"><a href="#overview">OVERVIEW</a></li>
+        <li class="" data-menuanchor="west"><a href="#west">SERVICES</a></li>
+        <li class="" data-menuanchor="east"><a href="#east">PRODUCTS</a></li>
+        <li class="" data-menuanchor="builders"><a href="#builders">ABOUT US</a></li>
+        <li class="" data-menuanchor="contact"><a href="#contact">CONTACT US</a></li>
+    </ul>
+</div>
+</div>
+
+	<div class="form-wrapper">
+	<form id="myForm" name="myForm" action="https://www.xebeccampaigns.com/LMS/get-lead-count.php" method="post">
+		<!-- <input name="is_new_xebec" id="is_new_xebec" value="" type="hidden">
+		<input name="p_dept_cd" id="p_dept_cd" value="3883" type="hidden">
+		<input name="p_prod_cd" id="p_prod_cd" value="259" type="hidden">
+		<input name="p_comp_cd" id="p_comp_cd" value="1" type="hidden">
+		<input id="p_data_source" name="p_data_source" value="AD" type="hidden">
+		<input name="p_ip_addsr" id="p_ip_addsr" value="101.57.198.231" type="hidden">
+		<input name="p_curr_page_path" id="p_curr_page_path" value="" type="hidden">
+		<input name="campaign_name" id="campaign_name" value="Credai" type="hidden">
+		<input name="param3" id="param3" value="7Oct" type="hidden">
+		<input name="param1" id="param1" value="cpm" type="hidden">
+		<input name="url" id="url" value="/exb/default.aspx" type="hidden">
+		<input name="param2" id="param2" value="mailer" type="hidden">
+		<input value="" name="ud1" id="ud1" class="field" type="hidden">
+		<input value="" name="ud2" id="ud2" class="field" type="hidden">
+		<input value="" name="ud3" id="ud3" class="field" type="hidden">
+		<input value="" name="ud4" id="ud4" class="field" type="hidden">
+		<input value="" name="ud5" id="ud5" class="field" type="hidden">
+		<input value="" name="ud6" id="ud6" class="field" type="hidden">
+		<input value="" name="ud7" id="ud7" class="field" type="hidden">
+		<input value="" name="ud8" id="ud8" class="field" type="hidden">
+		<input value="" name="ud9" id="ud9" class="field" type="hidden">
+		<input value="" name="ud10" id="ud10" class="field" type="hidden">
+		<input name="lead_from" id="ver" value="Desktop" type="hidden">
+		<input value="" name="query" id="query" class="field" type="hidden">
+		<input value="source" name="leads[stringfield2]" id="stringfield2" style="display:none;" type="text">
+		<input name="retURL" id="retURL" value="http://credaipune.org/exb/thanks.aspx" type="hidden"> -->
+		
+		<input placeholder="Name" class="field margin-right" name="p_user_nm" id="p_user_nm" type="text">
+        <input placeholder="Email ID" class="field margin-right" name="emailid" id="emailid" type="text">
+        <input placeholder="Mobile No." class="field margin-right" maxlength="12" name="p_user_mob" id="p_user_mob" type="text">
+        <input placeholder="City" class="field margin-right" name="city" id="city" type="text">
+        <select class="select field" id="project" name="course_type">
+			<option value="" selected="selected" disabled="disabled">Exhibition</option>
+			<option value="West">West</option>
+			<option value="East">East</option>
+            <option value="West &amp; East">West &amp; East</option>
+		</select>
+        <input id="form-submit-button" name="submit_button" value="Register Now" class="submit_btn" type="submit">
+    </form>
+</div>
+<div class="fullpage-wrapper" style="height: 100%; position: relative; transform: translate3d(0px, 0px, 0px); transition: all 700ms ease 0s;" id="fullpage">
+	<div data-anchor="overview" style="height: 659px;" class="section  fp-section active" id="section0">
+		<div class="main-content">
+        	<h1>Largest Property Exhibition with over 90+ 'CREDAI' ble developers</h1>
+            <div class="direction">
+            	<a href="#west">
+                <div class="east">
+                	Pune WEST
+            	</div>
+                </a>
+                <a href="#east">
+                <div class="east">
+                	Pune EAST
+                </div>
+               </a>
+                <div class="bottom">
+                	<p>Presence of all Leading Housing Finance Institutions  </p>
+                </div>
+            </div>
+                    </div>
+            
+            
+	</div>
+    
+	<div data-anchor="west" style="height: 659px;" class="section fp-section" id="section2">
+    	<div class="main-content">
+        	<h5>#PuneTrending</h5>
+			<h1>Pune West <br>Property Exhibition</h1>
+            <h4>17<sup>th</sup> &amp; 18<sup>th</sup> October, 2015</h4>
+            <h3><span class="venue">Venue:</span> Hotel Orchid(VITS),<br>
+            Mhalunge, Balewadi, Pune</h3>
+            <h5>Area: Aundh | Baner | Balewadi | Pashan | Kothrud | 
+Bavdhan | Hinjewadi | Bhugaon | Pirangut | Wakad | Sus | Mhalunge | 
+Pimple Nilakh | Pimple Saudagar | Tathawade | Punawale | Ravet | 
+Pimpri-Chinchwad | Kiwale | Talegaon &amp; Much More</h5>
+        </div>
+	</div>
+    
+	<div data-anchor="east" style="height: 659px;" class="section fp-section" id="section3">
+		<div class="main-content">
+           	<h5>#PuneTrending</h5>
+			<h1>Pune East <br>Property Exhibition</h1>
+            <h4>24<sup>th</sup> &amp; 25<sup>th</sup> October, 2015</h4>
+            <h3><span class="venue-red">Venue:</span> Hotel Hyatt Regency,<br>
+            Nagar Road, Pune</h3>
+            <h5>Area: Koregaon Park | Kalyaninagar | Viman Nagar | 
+Kharadi | Keshavnagar | Mundhwa | Hadapsar | Wagholi | Dhanori | Kondhwa
+ | Undri | Pisoli | Kesnand | Sopan Bagh | Manjri &amp; Much More
+            </h5>
+        </div>
+	</div>
+    
+    <div data-anchor="builders" style="height: 659px;" class="section fp-section" id="section4">
+		<div class="main-content main-content1">
+			<span class="line"></span><h4>BUILDERS</h4><span class="line"></span>
+            <h3>500+ Projects on Display</h3>
+        	<!--<div id="owl-demo" class="owl-carousel">
+                <div class="item"><img src="imgs/aditya-shagun-developers.jpg" alt="aditya-shagun-developers"></div>
+                <div class="item"><img src="imgs/B.U.Bhandari-Landmarks.jpg" alt="B.U.Bhandari-Landmarks"></div>
+                <div class="item"><img src="imgs/Bhandari-Associates.jpg" alt="Bhandari-Associates"></div>
+                <div class="item"><img src="imgs/G-Corp-Properties--Pvt-Ltd.jpg" alt="G-Corp-Properties--Pvt-Ltd"></div>
+                <div class="item"><img src="imgs/Goel-Ganga-Constructions.jpg" alt="Goel-Ganga-Constructions"></div>
+                <div class="item"><img src="imgs/Nyati-Builders-Pvt-Ltd.jpg" alt="Nyati-Builders-Pvt-Ltd"></div>
+                <div class="item"><img src="imgs/Paranjape-Schemes-Construction-Limited.jpg" alt="Paranjape-Schemes-Construction-Limited"></div>
+                <div class="item"><img src="imgs/pride-purple.jpg" alt="pride-purple"></div>
+              </div>-->
+              
+            </div>
+        </div>
+	    
+    <div data-anchor="contact" style="height: 659px;" class="section fp-section" id="section5">
+    	<div class="contact-us-content">
+			<h4>Contact Us</h4>
+            <p>020 26052655</p>
+            <p><a href="http://www.exhibition.credaipune.org/" target="_blank" style="color:#000; text-decoration:none;">www.exhibition.credaipune.org</a></p>
+        </div>
+	</div>
+</div>
+ 
+      <a href="#0" class="cd-top">Top</a>
+	
+   
+ 	<!-- main top wrapper ends here -->
+    
+
+<!-- Gem jQuery -->
+<script type="text/javascript">
+	$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['overview', 'west', 'east','builders','contact'],
+				menu: '#menu',
+				loopTop: false,
+				verticalCentered: false,
+			});
+			$( "#myForm" ).submit(function( event ) {
+		var name = $('#p_user_nm').val();
+		var characterReg = /^\s*[a-zA-Z\s]+\s*$/;
+		var num = $('#p_user_mob').val();
+		var numericReg = /^\d*[0-9](|.\d*[0-9]|,\d*[0-9])?$/;
+		var email = $('#emailid').val();
+		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+		var city = $('#city').val();
+		var selectcourse = $('#project').val();
+
+		if (name == '') {
+			alert('Please Enter Your Name');
+			$('#p_user_nm').focus();
+			return false;
+		};
+		if(!characterReg.test(name)) {
+			alert('Please Enter a Valid Name');
+			$('#p_user_nm').focus();
+			return false;
+		}
+		if (email == '') {
+			alert('Please Enter Your Email Address');
+			$('#emailid').focus();
+			return false;
+		};
+		if(!emailReg.test(email)) {
+			alert('Please Enter a Valid Email Address');
+			$('#emailid').focus();
+			return false;
+		}
+		if (num == '') {
+			alert('Please Enter Your Contact Number');
+			$('#p_user_mob').focus();
+			return false;
+		};
+		if(!numericReg.test(num)) {
+			alert('Please Enter a Valid Contact Number');
+			$('#p_user_mob').focus();
+			return false;
+		}
+		if(num.length <= '9') {
+			alert('Please Enter Atleast 10 Digit Contact Number');
+			$('#p_user_mob').focus();
+			return false;
+		}
+		if (city == '') {
+			alert('Please Enter Your City');
+			$('#city').focus();
+			return false;
+		};
+		if(!characterReg.test(city)) {
+			alert('Please Enter a Valid City Name');
+			$('#city').focus();
+			return false;
+		}
+		if (selectcourse == '' || selectcourse == null) {
+			alert('Please Select Exhibition');
+			$('#project').focus();
+			return false;
+		};
+	});
+			
+			
+			$("#owl-demo").owlCarousel({
+				autoPlay: 3000,
+				items : 4,
+				navigation:true
+			  });
+			  
+			  if($(window).width() < 767) {
+					var version = document.getElementById("ver");
+					version.value = "Mobile";
+				} else {
+					var version = document.getElementById("ver");
+					version.value = "Desktop";
+				}
+		});	
+		
+</script>
+ 
+ 
+<!-- Google Code for Remarketing Tag -->
+<!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 942680904;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="Credai_files/conversion.js">
+</script><iframe name="google_conversion_frame" title="Google conversion frame" src="Credai_files/a.htm" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" frameborder="0" height="13" width="300">&lt;img
+ height="1" width="1" border="0" alt="" 
+src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/942680904/?frame=0&amp;random=1444497555487&amp;cv=8&amp;fst=1444497555487&amp;num=1&amp;fmt=1&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=1&amp;u_tz=330&amp;u_java=false&amp;u_nplug=1&amp;u_nmime=2&amp;frm=0&amp;url=http%3A//credaipune.org/exb/%3Fcampaign%3DAD%26adgroup%3Dcpm%26adtype%3Dmailer%26keyword%3D7Oct"
+ /&gt;</iframe>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/942680904/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+ 
+   
+
+
+</body></html>
